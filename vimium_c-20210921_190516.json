@@ -1,0 +1,80 @@
+{
+	"name": "Vimium C",
+	"@time": "21.9.2021, 19:05:16",
+	"time": 1632243916642,
+	"environment": {
+		"extension": "1.92.4",
+		"platform": "win",
+		"chrome": 93
+	},
+	"exclusionRules": [
+		{
+			"pattern": ":https://mail.google.com/",
+			"passKeys": ""
+		},
+		{
+			"pattern": ":https://open.spotify.com/",
+			"passKeys": "<space> "
+		},
+		{
+			"pattern": ":https://www.tvnow.de/",
+			"passKeys": "<space> "
+		},
+		{
+			"pattern": ":https://music.youtube.com/",
+			"passKeys": "<space> "
+		},
+		{
+			"pattern": ":https://youtube.com/",
+			"passKeys": "<space> "
+		}
+	],
+	"grabBackFocus": true,
+	"keyMappings": [
+		"#! no-check",
+		"unmapAll",
+		"map <space> LinkHints.activate",
+		"map <backspace> LinkHints.activate",
+		"map <c-space> LinkHints.activateModeToHover",
+		"map <c-backspace> LinkHints.activateModeToHover",
+		"map g<space> LinkHints.activateModeToOpenInNewForegroundTab",
+		"map ä<backspace> LinkHints.activateModeToOpenInNewForegroundTab",
+		"map t scrollDown",
+		"map a scrollDown",
+		"map r scrollUp",
+		"map e scrollUp",
+		"map st scrollToBottom",
+		"map sr scrollToTop",
+		"map ha scrollToBottom",
+		"map he scrollToTop",
+		"map d previousTab",
+		"map n nextTab",
+		"map i previousTab",
+		"map o nextTab",
+		"map sd firstTab",
+		"map sn lastTab",
+		"map hi firstTab",
+		"map ho lastTab",
+		"map W removeTab",
+		"map D moveTabLeft",
+		"map N moveTabRight",
+		"map m zoomIn",
+		"map M zoomOut",
+		"map c goBack",
+		"map l goForward",
+		"map . goBack",
+		"map , goForward",
+		"map T Vomnibar.activateTabSelection",
+		"map S Vomnibar.activateHistoryInNewTab",
+		"map x toggleLinkHintCharacters value=\"snrtmlcvwg\"",
+		"map ß toggleLinkHintCharacters value=\"hieau.,yöä\"",
+		"map ? showHelp",
+		"map P focusInput",
+		"map j closeDownloadBar",
+		""
+	],
+	"linkHintCharacters": "snrtmlczvwg",
+	"linkHintNumbers": "123456789",
+	"mouseReachable": false,
+	"searchUrl": "https://www.ecosia.org/search?q=$s Ecosia"
+}
