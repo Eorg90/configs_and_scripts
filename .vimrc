@@ -1,0 +1,32 @@
+set number
+set smartcase!
+noremap b q
+noremap u w
+noremap . e
+noremap , r
+noremap ü t
+noremap p z
+noremap c u
+noremap l i
+noremap m o
+noremap f p
+noremap h a
+noremap i s
+noremap e d
+noremap a f
+noremap o g
+noremap d h
+noremap t j
+noremap r k
+noremap n l
+noremap s ö
+noremap k y
+noremap y x
+noremap ö c
+noremap ä v
+noremap q b
+noremap j n
+noremap g m
+noremap w ,
+noremap v .
+noremap O G
