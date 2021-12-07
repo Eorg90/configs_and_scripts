@@ -1,3 +1,9 @@
 set number
 set smartcase!
+set expandtab
+set tabstop=4
+set nobackup
+set hlsearch
+set nofoldenable
+set ignorecase
 set langmap=bu.\\,üpclmfxhieaodtrnskyöäqjgwvzBUÜPCLMFXHIEAODTRNSKYÖÄQJGZ;qwertzuiopüasdfghjklöyxcvbnm\\,.äQWTZUIOPÜSADFGHJKLÖYXCVBNMÄ
